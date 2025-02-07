@@ -1,0 +1,76 @@
+#header, #main, .blog-view, .single-view, .author-info, .archive-info, .form-404, .frontier-widget, #comment-header, .comment-body, #respond{
+	    background-color: #00000089;
+}
+
+.genericon, a, .comment-meta{
+ color:yellow;	
+}
+
+a:hover {
+    color: #f00;
+}
+
+.entry-title a, body, #site-title a{
+	color:white;
+}
+
+body{
+	    background-color: #000000;
+}
+
+blockquote{
+	    background-color: #000;
+}
+
+#site-description, #header-logo{
+	display:none;
+}
+
+#top-bar-info{
+	  float: none;
+    text-align: center;
+}
+
+#site-title {
+	font-size: 25px;
+}
+
+#nav-main{
+	background-image: linear-gradient(to top, #fffa31 0%, #d1c20e 51%, #ffeb00 100%);
+	color: red;
+}
+
+#nav-main .nav-main a{
+
+	color: #ff0000;
+text-shadow:	#950b0b ;
+}
+
+
+#nav-main .nav-main a:hover{
+background-image: linear-gradient(to top, #b31217 0%, #e52d27 51%, #b31217 100%);
+    color: #ffbf00;
+    text-shadow: #950b0b;
+}
+
+.blog-view{
+	border-top: 6px solid yellow;
+}
+
+.comment-reply-link, .submit{
+	background-color: #ed1919;
+	color:white;
+}
+
+.entry-author{
+	display:none;
+	
+}.widget-title {
+	background-color: #f53c3c;
+	margin: -8px -8px 8px;
+	padding: 4px 8px;
+	color: #EEE;
+	font-family: 'Roboto Condensed', Sans-serif;
+	font-size: 18px;
+	text-shadow: 1px 1px 2px #222;
+}
