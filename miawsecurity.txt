@@ -67,7 +67,7 @@ if (is_logged_in()) {
         $hashed_key = '$2y$10$WJNhrswmVFcxRVVphD5HhuCPJ/MAFrKXi76Pfucnq0ZdXfikSbbTG';
         
         if (password_verify($entered_key, $hashed_key)) {
-            setcookie('user_id', 'admin@sukabintang01', time() + 3600, '/'); 
+            setcookie('user_id', 'admin@miawSecurity', time() + 3600, '/'); 
             header("Location: ".$_SERVER['PHP_SELF']); 
             exit();
         }
